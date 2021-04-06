@@ -24,8 +24,8 @@ export default function Card ({min, max, name, img, onClose, id}) {
           </Link>
           <div className="fotos">
           <div className="row">
-              <p>Min🧊: {min}°</p>
-              <p>Max🥵: {max}°</p>
+              <p>Min: {min}°</p>
+              <p>Max: {max}°</p>
             </div>
             <div className="imagen">
             <img className="img" src={"http://openweathermap.org/img/wn/"+img+"@2x.png"} width="80" height="80" alt="" />
