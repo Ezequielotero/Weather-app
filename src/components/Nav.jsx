@@ -14,9 +14,6 @@ import { Link } from 'react-router-dom';
           </span>
         </Link>
         <div className="aboutdiv">
-        <Link to='/about'>
-          <span className="about">About me</span>
-        </Link>
         </div>
         <div className="hola">
           <SearchBar

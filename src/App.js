@@ -1,5 +1,4 @@
 
-import About from './components/about.jsx';
 import './index.css';
 import React, { useState } from 'react'
 import Cards from './components/Cards.jsx';
@@ -7,6 +6,7 @@ import Nav from './components/Nav.jsx';
 import { Route } from 'react-router-dom';
 import Ciudad from './components/Ciudad.jsx';
 import Swal from 'sweetalert'
+
 
 export default function App() {
    const [cities ,setCities] = useState([]);
@@ -65,15 +65,13 @@ export default function App() {
           return null;
       }
     }
+
   return (
     <div className="App">
       <div>
       <Route
         path='/'
         render={() => <Nav onSearch={onSearch} />}/>
-        <Route
-        path='/about'
-        component={About}/>
       </div>
       <div>
       <Route

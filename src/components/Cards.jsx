@@ -18,7 +18,15 @@ export default function Cards({cities, onClose}) {
     );
   } else {
     return(
-      <div>Sin ciudades</div>
+      <div className="vacio">
+          To add a city, go to the text input on the navigation bar and write
+          the name of the city that you want to add and press the green button.
+        
+        
+          If you want to check the details of a city, just add it and then click
+          on its card.
+        
+      </div>
     )
   }
 }
